@@ -5,6 +5,11 @@ import pandas as pd
 
 
 def union_list_all(a):
+    """
+    union all elements in the list like set property
+    :param a: list of list
+    :return:
+    """
     assert isinstance(a, list), 'arg a should be list type but {0}'.format(type(a))
 
     res = []
