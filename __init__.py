@@ -1,5 +1,6 @@
 
 from goldentiger.util import *
+import goldentiger.settings as settings
 
 
 exp1 = [
