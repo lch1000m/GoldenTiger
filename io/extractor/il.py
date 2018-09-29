@@ -1,7 +1,7 @@
 # read extractor il data
 
 
-def read_il():
+def read():
     return None
 
 

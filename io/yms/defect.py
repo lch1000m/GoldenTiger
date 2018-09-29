@@ -1,7 +1,7 @@
 # read yms defect data
 
 
-def read_defect():
+def read():
     return None
 
 

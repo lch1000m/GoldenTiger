@@ -1,5 +1,5 @@
 # read file data
 
 
-def read_file():
+def read():
     return None

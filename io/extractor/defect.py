@@ -1,7 +1,7 @@
 # read extractor il data
 
 
-def read_defect():
+def read():
     return None
 
 
