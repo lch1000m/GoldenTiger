@@ -24,3 +24,21 @@ class Path(object):
         df = pd.merge(df, self.path, left_index=True, right_index=True) # index: lot_wf
 
         return df
+
+
+
+class Filter(object):
+
+    def __init__(self, option):
+        self.option = option
+
+
+    def apply(self, df, path):
+        """
+        :param df: data df
+        :param path: path df
+        """
+
+        _lot_wfs = path.query(self.option)['lot_wf'].unique()
+
+        return df[df['lot_wf'].isin(_lot_wfs)]
