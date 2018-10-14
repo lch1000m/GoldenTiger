@@ -29,3 +29,31 @@ class DB(object):
 
         elif self.option['source'] == 'file':
             self.df = gt.io.file.file.read()
+
+
+    def add_step_desc(self):
+        """
+         add step_desc information
+        """
+        pass
+
+
+    def add_measure_info(self):
+        """
+        add location & measure information
+        """
+        pass
+
+
+    def vehicle_integration(self):
+        """
+        integrate step & item information along different vehicles
+        """
+        pass
+
+
+    def add_outlier_info(self):
+        """
+        add outlier information aling group
+        """
+        pass
