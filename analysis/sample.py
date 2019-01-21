@@ -3,7 +3,7 @@ import pandas as pd, numpy as np
 
 
 df = pd.read_table(
-    r'C:\Codes\Snippets\python\pandas\passrate.txt',
+    r'C:\Codes\Snippets\sample data\passrate.txt',
 )
 
 

@@ -1,1 +1,4 @@
-from goldentiger import io, filter, analysis
+# goldentiger module
+
+from goldentiger.path import *
+from goldentiger.debug import *

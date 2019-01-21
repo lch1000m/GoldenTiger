@@ -28,7 +28,7 @@ path_filter = {
 alias_filter = {
     'method': 'file',   # file or script
     'contents': """
-        lot_id == ['az0xx', 'az0h1']
+         lot_id == ['az0xx', 'az0h1']
     """,
     'alias_other': '',
 }
